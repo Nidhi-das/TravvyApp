@@ -1,4 +1,4 @@
-.navbar-light .navbar-nav .nav-link.active-link
+.navbar-light,.navbar-nav,.nav-link.active-link,.navbar-brand
 {
     color: #ffff;
     font-weight: bold;
