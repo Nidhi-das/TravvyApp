@@ -16,3 +16,50 @@
     text-align: center;
 
 }
+.content
+{
+    top: 30%;
+    left: 20%;
+    position: absolute;
+}
+.content h1 
+{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+  
+}
+.content a 
+{
+    text-decoration: none;
+    background-color: rgb(122, 243, 132);
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.content a:hover 
+{
+    background-color: var(--primary-color);
+    color: rgb(250, 248, 248);
+}
+.bg-yellow{
+    background:  rgb(122, 243, 132);
+}
+.padding70{
+    padding: 70px;
+}
+*,{
+    box-sizing:border-box;
+}
+div{
+    display: block;
+    font-family: sans-serif,'roboto';
+    
+}
+.col-md-7,.col-sm-6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
